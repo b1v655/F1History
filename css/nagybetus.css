@@ -1,0 +1,184 @@
+
+
+html {
+	font-size:1.5em;
+	background-color:DarkRed;
+	min-width:600px;
+	background-image:url("../kepek_videok/hatter.png");
+	background-repeat:repeat;
+}
+ body {
+	font-family: arial, verdana, sans-serif;	
+	background-color:white;
+	width:80%;
+	padding:20px; 
+	margin:20px auto;
+	border:2px solid black;
+	border-radius:20px;
+ }
+
+.footer p{
+	text-align:center;
+
+}
+.main{
+	margin: 5%;
+}
+.header_nav{
+	background-color:lightgray;
+	padding:5px;
+	border-top:1px solid black;
+	border-bottom:1px solid black; 
+	margin-left:-20px;
+	margin-right:-20px;
+}
+
+.header_nav_ul_li{
+	display:inline;
+}
+.header_nav_a{
+	text-decoration:none; 
+	font-size:1.5em;
+	font-variant:small-caps;
+	margin-right:1em;
+	
+}
+.header_nav#betutipus{
+	font-size:0.7em;
+	float:right;
+	width:210px;
+	border:1px solid black;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.header_nav_a#nagybetu{
+	position:absolute;
+	left:-9999px;
+}
+
+	
+header nav {
+	background-color:lightgray;
+	padding:5px;
+	border-top:1px solid black;
+	border-bottom:1px solid black; 
+	margin-left:-20px;
+	margin-right:-20px;
+
+}
+
+header nav ul li {
+	display:inline;
+
+}
+
+header nav a{
+	text-decoration:none; 
+	font-size:1.5em;
+	font-variant:small-caps;
+	margin-right:1em;
+	
+}
+nav#betutipus{
+	font-size:0.7em;
+	float:right;
+	width:210px;
+	border:1px solid black;
+	margin-left:10px;
+	margin-bottom:10px;
+	}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	text-shadow: gray 3px 3px 3px;
+}
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+
+	font-size: 1.5em;
+	text-indent: 2em;
+}
+
+figcaption {
+	text-align:left;
+	font-weight:bold;
+	font-size: 1em;
+}
+
+p {
+	text-align:justify;
+	line-height:1.5em;
+}
+
+img,video {
+	width:100%;
+	height:auto;
+}
+
+/* táblázat beállításai */
+
+th {
+	text-align:left;
+}
+table {
+	width:300px;
+	background-color:lightblue;
+	border-collapse:collapse;
+	
+}
+table caption {
+	width:300px;
+	background-color:lightblue;
+}
+th,td,caption {
+	border:1px solid gray
+}
+
+/* szerkezeti elemek */
+aside {
+	margin-left:10px;
+	margin-right:10px;
+	margin-bottom:10px;
+	margin-top:10px; 
+}
+
+footer p{
+	text-align:center;
+}
+
+hr {
+	border:0;
+	border-bottom:1px dotted gray;
+}
+
+fieldset {
+	background-color: lightyellow;
+	border-radius: 10px;
+}
+
+main{
+	margin: 5%;
+}
+
+article section {
+	max-width: 640px;
+	min-width: 240px;
+}
+
+article figure{
+	width: 240px;
+	margin: 0;
+	border: 0;
+}
+ 
+nav a#nagybetu{
+	position:absolute;
+	left:-9999px;
+}
